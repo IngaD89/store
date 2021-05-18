@@ -27,7 +27,10 @@ public class ProductController {
         products.add(product);
 
     }
-
+    @DeleteMapping("/products")
+    public String deleteProduct(@PathVariable String name) {
+        return null;
+    }
 
 
 }

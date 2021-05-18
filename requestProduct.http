@@ -8,13 +8,13 @@ Accept: application/json
 POST http://bcn-fem-tech-http-store-inga.herokuapp.com/products
 Content-Type: application/x-www-form-urlencoded
 
-name=shoes&price=42
+name=shoes&price=42.32
 
 ###
 POST http://bcn-fem-tech-http-store-inga.herokuapp.com/products
 Content-Type: application/x-www-form-urlencoded
 
-name=Tshirt&price=12
+name=Tshirt&price=12.21
 
 ###
 
