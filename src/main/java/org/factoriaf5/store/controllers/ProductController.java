@@ -21,6 +21,7 @@ public class ProductController {
     public List<Product> allProducts(){
     return products;
 }
+    @GetMapping("/products")
     public void addProduct(Product product) {
         products.add(product);
     }
