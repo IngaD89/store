@@ -1,3 +1,7 @@
+GET http://bcn-fem-tech-http-store-inga.herokuapp.com/health
+Accept: application/json
+
+###
 GET http://bcn-fem-tech-http-store-inga.herokuapp.com/products
 Accept: application/json
 
