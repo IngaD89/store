@@ -12,10 +12,8 @@ import java.util.List;
 
 @RestController
 public class ProductController {
-    @GetMapping("/health")
-    public String check() {return  "Hello! I'm a server.";}
-
-    public List<Product> products = new ArrayList<>();
+    private final List<Product> products;
+    public ProductController() {products = new ArrayList<>();}
 
     @GetMapping("/products")
     public List<Product> allProducts(){
@@ -24,6 +22,7 @@ public class ProductController {
     @PostMapping("/products")
     public void addProduct(Product product) {
         products.add(product);
+
     }
 
 }
